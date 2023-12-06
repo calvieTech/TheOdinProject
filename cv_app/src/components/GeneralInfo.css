@@ -1,0 +1,16 @@
+.gi_container {
+	margin: 7px 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.gi_container > input {
+	margin: 7px;
+	padding: 12px 21px;
+	border-radius: 14px;
+}
+
+#gi_description {
+	/* height: 120px; */
+}

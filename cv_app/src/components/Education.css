@@ -1,0 +1,24 @@
+.edu_container,
+.edu_options {
+	margin: 21px 0px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.edu_options > input,
+button,
+#edu_degree {
+	margin: 7px;
+	padding: 12px 21px;
+	border-radius: 14px;
+}
+
+.edu_container > button {
+	background-color: gold;
+}
+
+.edu_container > button:hover {
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+}

@@ -1,0 +1,25 @@
+.we_container {
+	margin: 7px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.we_container > input,
+button,
+textarea {
+	margin: 7px;
+	padding: 12px 21px;
+	border-radius: 14px;
+}
+
+.we_container > button {
+	background-color: gold;
+}
+
+.we_container > button:hover {
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+}

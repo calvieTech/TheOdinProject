@@ -1,0 +1,8 @@
+.rp_container {
+	background-color: #add8e6;
+	min-width: 33%;
+	/* margin: 14px; */
+	padding: 7px 21px;
+	margin: 14px 0px;
+	border-radius: 14px;
+}

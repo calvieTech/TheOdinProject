@@ -1,0 +1,35 @@
+.productTable {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.productTable__headers {
+	display: flex;
+	flex-direction: row;
+}
+
+.productTable__headers > h2 {
+	margin: 0px 14px;
+}
+
+/* .productTable__rows {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} */
+
+.productCategory__row {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.productRow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}

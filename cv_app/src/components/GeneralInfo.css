@@ -11,6 +11,19 @@
 	border-radius: 14px;
 }
 
-#gi_description {
-	/* height: 120px; */
+.gi_buttons {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.gi_buttons > button {
+	background-color: gold;
+	width: 50%;
+}
+
+.gi_buttons > button:hover {
+	background-color: blue;
+	cursor: pointer;
+	color: white;
 }

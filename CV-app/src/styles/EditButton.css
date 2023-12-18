@@ -1,0 +1,15 @@
+.editButton_container {
+	width: 50%;
+	margin-top: 14px;
+	background-color: violet;
+}
+
+.editButton_container:disabled {
+	background-color: lightslategrey;
+	color: white;
+}
+
+.editButton_container:hover {
+	background-color: brown;
+	cursor: pointer;
+}

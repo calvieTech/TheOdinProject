@@ -1,0 +1,67 @@
+.workExp_container,
+.workExp {
+	margin: 7px 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.workExp_container > h3 {
+	text-align: center;
+}
+
+.workExp > input {
+	margin: 7px;
+	padding: 12px 21px;
+	border: 2px solid black;
+	border-radius: 14px;
+}
+
+.workExp > textarea {
+	margin: 7px;
+	padding: 28px 21px;
+	border: 2px solid black;
+	border-radius: 14px;
+}
+
+.workExp_dates {
+	display: flex;
+	margin: 7px;
+	padding: 12px 21px;
+	border: 2px solid black;
+	border-radius: 14px;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	gap: 14px;
+}
+
+.startingDateClass,
+.endingDateClass {
+	font-size: medium;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* .workExp_dates > .startingDateClass,
+.endingDateClass {
+	display: inherit;
+	justify-content: center;
+	align-items: center;
+} */
+
+/* #workExp_responsibilities {
+	height: 120px;
+} */
+
+.workExp_container > button {
+	background-color: gold;
+}
+
+.workExp_container > button:hover {
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+	border-color: white;
+}

@@ -1,0 +1,18 @@
+.re_container {
+	background-color: #add8e6;
+	padding: 7px 21px;
+	margin: 14px;
+	border-radius: 14px;
+	height: 100%;
+}
+
+.re_container > h2 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.re_buttons {
+	border-top: 2px solid black;
+	display: inline-flex;
+	width: 100%;
+}

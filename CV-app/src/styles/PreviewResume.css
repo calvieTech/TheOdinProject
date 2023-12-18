@@ -1,0 +1,68 @@
+/* .preview_container {
+	background-color: beige;
+} */
+
+.pr_container {
+	background-color: white;
+	padding: 7px 21px;
+	margin: 14px;
+	border-radius: 14px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pr_container > h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.pr_resume {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.pr_genInfo {
+	width: 100%;
+	border-bottom: 2px solid red;
+	margin: 0;
+	padding: 0;
+}
+
+.pr_genInfo > .pr_name {
+	margin: 0;
+	padding: 0;
+}
+
+.pr_genInfo > .pr_info {
+	margin: 0;
+	padding: 0;
+}
+
+.pr_education,
+.pr_workExp,
+.pr_summary {
+	margin: 0px;
+	display: block;
+	text-align: left;
+	border-bottom: 2px solid red;
+	margin: 21px 14px;
+}
+
+.pr_education > h3,
+h4 {
+	display: inline;
+}
+
+.pr_workExp > h3 {
+	margin-top: 0px;
+}
+
+.pr_exp > h4 {
+	display: block;
+	margin-top: 0px;
+}

@@ -1,0 +1,30 @@
+.edu_container,
+.edu_options {
+	margin: 7px 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.edu_container > h3 {
+	text-align: center;
+}
+
+.edu_options > input,
+button,
+#edu_degree {
+	margin: 7px;
+	padding: 12px 21px;
+	border: 2px solid black;
+	border-radius: 14px;
+}
+
+.edu_container > button {
+	background-color: gold;
+}
+
+.edu_container > button:hover {
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+}

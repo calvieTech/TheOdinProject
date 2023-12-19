@@ -30,13 +30,13 @@ function PreviewResume({ cvData, isSubmitted }) {
 					</section>
 					<section className="pr_workExp">
 						<h3>Work Experience: </h3>
-						<ul>
+						<ul className="pr_workExpList">
 							{cvData.workExp.map((exp, idx) => (
 								<div
 									key={exp.companyName}
 									className={`pr_exp exp${idx}`}>
 									<h4>
-										{exp.positionTitle} {exp.companyName}
+										{exp.positionTitle} | {exp.companyName}
 									</h4>
 									<p>{exp.responsibility}</p>
 								</div>

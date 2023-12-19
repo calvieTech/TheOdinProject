@@ -28,9 +28,9 @@
 
 .pr_genInfo {
 	width: 100%;
-	border-bottom: 2px solid red;
 	margin: 0;
 	padding: 0;
+	border-bottom: 2px solid red;
 }
 
 .pr_genInfo > .pr_name {
@@ -46,11 +46,14 @@
 .pr_education,
 .pr_workExp,
 .pr_summary {
-	margin: 0px;
 	display: block;
 	text-align: left;
-	border-bottom: 2px solid red;
 	margin: 21px 14px;
+}
+
+.pr_summary > h3,
+p {
+	display: inline;
 }
 
 .pr_education > h3,
@@ -63,6 +66,6 @@ h4 {
 }
 
 .pr_exp > h4 {
-	display: block;
+	display: inline-block;
 	margin-top: 0px;
 }
